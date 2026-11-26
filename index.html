@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Manual de Integración Clínica | HEPL</title>
+  <title>Portal de Practicantes y Pasantes de Enfermería | HEPL</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
@@ -202,22 +202,13 @@
     .pill-tag { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px; font-size: 0.72rem; font-weight: 800; background: #e0f2fe; color: var(--navy-deep); }
 
     /* ANUNCIOS (ESTUDIANTE) */
-    .announcements-section {
-      background-color: #ffffff;
-      padding: 0.5rem 1.5rem 2rem;
-    }
+    .announcements-section { background-color: #ffffff; padding: 0.5rem 1.5rem 2rem; }
     .ann-header-row {
       display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
       margin-bottom: 1rem; border-top: 2px solid #e2e8f0; padding-top: 1.5rem;
     }
-    .ann-header-row h3 {
-      font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 1.25rem;
-      color: var(--navy-deep); text-transform: uppercase;
-    }
-    .ann-card {
-      background: #f8fafc; border: 1.5px solid #cbd5e1; border-left: 6px solid var(--sky-pill);
-      border-radius: 14px; padding: 1.15rem 1.25rem; margin-bottom: 0.9rem;
-    }
+    .ann-header-row h3 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 1.25rem; color: var(--navy-deep); text-transform: uppercase; }
+    .ann-card { background: #f8fafc; border: 1.5px solid #cbd5e1; border-left: 6px solid var(--sky-pill); border-radius: 14px; padding: 1.15rem 1.25rem; margin-bottom: 0.9rem; }
     .ann-card.asistencia { border-left-color: #f59e0b; background: #fffbeb; }
     .ann-card.confirmed { border-left-color: var(--success); background: #f0fdf4; border-color: #bbf7d0; }
     .ann-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.45rem; }
@@ -225,26 +216,18 @@
     .ann-date { font-size: 0.76rem; font-weight: 700; color: var(--text-muted); }
     .ann-msg { font-size: 0.93rem; color: var(--text-dark); white-space: pre-line; margin-bottom: 0.85rem; }
     .ann-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; }
-    .btn-confirm-ann {
-      background: var(--navy-deep); color: #ffffff; border: none; padding: 0.5rem 1.15rem;
-      border-radius: 999px; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.75rem;
-      text-transform: uppercase; cursor: pointer;
-    }
-    .badge-confirmed {
-      display: inline-block; background: #dcfce7; color: #166534;
-      font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.75rem;
-      padding: 0.38rem 0.9rem; border-radius: 999px; text-transform: uppercase;
-    }
+    .btn-confirm-ann { background: var(--navy-deep); color: #ffffff; border: none; padding: 0.5rem 1.15rem; border-radius: 999px; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.75rem; text-transform: uppercase; cursor: pointer; }
+    .badge-confirmed { display: inline-block; background: #dcfce7; color: #166534; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 0.75rem; padding: 0.38rem 0.9rem; border-radius: 999px; text-transform: uppercase; }
 
-    /* ESTILOS ORIGINALES DEL MANUAL */
+    /* ESTILOS ORIGINALES DEL PORTAL */
     #app-content { display: none; }
     .section-inner { max-width: 960px; margin: 0 auto; }
     .wave-divider { display: block; width: 100%; line-height: 0; font-size: 0; margin: -1px 0; }
     .wave-divider svg { display: block; width: 100%; height: 52px; shape-rendering: geometricPrecision; }
 
     .hero-section { background-color: var(--navy-deep); color: #ffffff; padding: 3.2rem 1.5rem 1.75rem; }
-    .hero-section h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: clamp(1.9rem, 4.5vw, 2.8rem); line-height: 1.15; margin-bottom: 0.85rem; }
-    .hero-section p { font-size: 1.02rem; color: rgba(255, 255, 255, 0.92); max-width: 720px; }
+    .hero-section h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: clamp(1.85rem, 4.4vw, 2.75rem); line-height: 1.15; margin-bottom: 0.75rem; text-transform: uppercase; }
+    .hero-section p { font-size: 1.08rem; font-weight: 600; color: rgba(255, 255, 255, 0.92); max-width: 720px; }
 
     .welcome-section { background-color: #ffffff; color: var(--navy-deep); padding: 2rem 1.5rem 1.25rem; }
     .welcome-section h2 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: clamp(1.75rem, 4vw, 2.3rem); margin-bottom: 0.65rem; }
@@ -340,7 +323,7 @@
   <div id="lock-screen">
     <div class="lock-card">
       <span class="lock-badge">ACCESO RESTRINGIDO · HEPL</span>
-      <h2>Portal de Integración Clínica · Hospital de Especialidades Pediátrico León</h2>
+      <h2>Portal de Practicantes y Pasantes de Enfermería · HEPL</h2>
       <p>Ingresa con el usuario y contraseña asignados por el Departamento de Enseñanza e Investigación.</p>
       <input type="text" id="login-user" class="lock-input" placeholder="Usuario (ej. ESTHEPL...)" autocomplete="username" />
       <input type="password" id="login-pass" class="lock-input" placeholder="Contraseña" autocomplete="current-password" onkeydown="if(event.key==='Enter') handleLogin()" />
@@ -357,7 +340,7 @@
         <small style="color:#bae6fd;">Departamento de Enseñanza e Investigación</small>
       </div>
       <div class="topbar-actions">
-        <button class="btn-top sky" onclick="previewManualAsAdmin()">Ver Manual</button>
+        <button class="btn-top sky" onclick="previewManualAsAdmin()">Ver Portal</button>
         <button class="btn-top danger" onclick="logout()">Cerrar Sesión</button>
       </div>
     </div>
@@ -446,27 +429,27 @@
       <!-- TAB 3: EDITAR CONTENIDOS -->
       <div id="admin-tab-content" class="admin-section">
         <div class="admin-card">
-          <h3>Mensaje de Bienvenida y "Conoce al HEPL"</h3>
+          <h3>Mensaje de Bienvenida y "Este Manual es para ti"</h3>
           <div class="admin-grid-form">
             <div><label>Título de Bienvenida</label><input type="text" id="cfg-welcome-title" /></div>
             <div><label>Frase destacada (negritas)</label><input type="text" id="cfg-welcome-lead" /></div>
           </div>
           <div style="margin-bottom:0.85rem;"><label>Texto de Bienvenida</label><textarea id="cfg-welcome-body"></textarea></div>
-          <div style="margin-bottom:0.85rem;"><label>Título "Conoce al HEPL"</label><input type="text" id="cfg-conoce-title" /></div>
-          <div style="margin-bottom:0.85rem;"><label>Párrafo 1 (Conoce al HEPL)</label><textarea id="cfg-conoce-p1"></textarea></div>
-          <div style="margin-bottom:1rem;"><label>Párrafo 2 (Conoce al HEPL)</label><textarea id="cfg-conoce-p2"></textarea></div>
+          <div style="margin-bottom:0.85rem;"><label>Título introductorio del Manual</label><input type="text" id="cfg-conoce-title" /></div>
+          <div style="margin-bottom:0.85rem;"><label>Párrafo 1 (Este manual es para ti)</label><textarea id="cfg-conoce-p1"></textarea></div>
+          <div style="margin-bottom:1rem;"><label>Párrafo 2 (Este manual es para ti)</label><textarea id="cfg-conoce-p2"></textarea></div>
           <button id="btn-save-cfg" class="btn-primary" onclick="saveConfig()">Guardar Textos</button>
         </div>
 
         <div class="admin-card">
-          <h3>Sección "Explorar": Módulos Base</h3>
+          <h3>Sección "Manual de Integración": Módulos Base</h3>
           <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:0.85rem;">Activa o desactiva la visibilidad de los 4 módulos interactivos integrados:</p>
           <div id="core-toggles" style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;"></div>
           <button class="btn-primary" onclick="saveConfig()">Actualizar Visibilidad</button>
         </div>
 
         <div class="admin-card">
-          <h3>Agregar Nuevo Contenido a "Explorar"</h3>
+          <h3>Agregar Nuevo Contenido a "Manual de Integración"</h3>
           <div class="admin-grid-form">
             <div><label>Texto del botón (pill)</label><input type="text" id="mod-btn-title" placeholder="Ej. Reglamento Interno" /></div>
             <div><label>Título dentro del módulo</label><input type="text" id="mod-sec-title" placeholder="Ej. Lineamientos de Uniforme y Disciplina" /></div>
@@ -476,7 +459,7 @@
             <div><label>Enlace opcional (PDF, Drive, Video)</label><input type="url" id="mod-link-url" placeholder="https://..." /></div>
             <div><label>Texto del botón de enlace</label><input type="text" id="mod-link-text" placeholder="Ej. Ver documento completo" /></div>
           </div>
-          <button id="btn-add-mod" class="btn-primary" onclick="addCustomModule()">Agregar a Explorar</button>
+          <button id="btn-add-mod" class="btn-primary" onclick="addCustomModule()">Agregar al Manual</button>
 
           <hr style="margin:1.4rem 0; border:none; border-top:1px solid #e2e8f0;" />
           <h4 style="font-family:'Montserrat',sans-serif; font-size:0.85rem; color:var(--navy-deep); margin-bottom:0.75rem; text-transform:uppercase;">Contenidos Adicionales Activos</h4>
@@ -486,7 +469,7 @@
     </div>
   </div>
 
-  <!-- 3. MANUAL (ESTUDIANTES / VISTA PREVIA) -->
+  <!-- 3. PORTAL (ESTUDIANTES / VISTA PREVIA) -->
   <div id="app-content">
     <div class="user-topbar">
       <div class="user-chip">
@@ -506,8 +489,8 @@
 
     <header class="hero-section">
       <div class="section-inner">
-        <h1>Manual de Integración Clínica y Lineamientos Hospitalarios.</h1>
-        <p>Guía Operativa y de Bioseguridad para el Estudiante de Enfermería en el Hospital de Especialidades Pediátrico León.</p>
+        <h1>PORTAL DE PRACTICANTES Y PASANTES DE ENFERMERÍA</h1>
+        <p>Hospital de Especialidades Pediátrico León</p>
       </div>
     </header>
 
@@ -518,8 +501,8 @@
     <section class="welcome-section">
       <div class="section-inner">
         <h2 id="dyn-welcome-title">¡Bienvenido!</h2>
-        <p><strong id="dyn-welcome-lead">Este MANUAL está diseñado para ti.</strong><br>
-        <span id="dyn-welcome-body">No es un documento más; es tu guía operativa para navegar por el hospital, proteger a tus pacientes y garantizar el éxito de tus campos clínicos. Léelo, compréndelo y aplícalo todos los días.</span></p>
+        <p><strong id="dyn-welcome-lead">Este portal es tu espacio institucional de consulta y comunicación.</strong><br>
+        <span id="dyn-welcome-body">Aquí podrás consultar el Manual de Integración Clínica y mantenerte al tanto de todos los avisos, sesiones y comunicados oficiales del Departamento de Enseñanza e Investigación.</span></p>
       </div>
     </section>
 
@@ -540,18 +523,18 @@
 
     <section class="explore-section">
       <div class="section-inner">
-        <h2>Explorar</h2>
+        <h2>Manual de Integración</h2>
         <div class="explore-pills" id="explore-pills-container"></div>
 
         <div id="conoce-intro" class="conoce-intro">
-          <h3 id="dyn-conoce-title">Conoce al HEPL</h3>
+          <h3 id="dyn-conoce-title">ESTE MANUAL ES PARA TI</h3>
           <p id="dyn-conoce-p1"></p>
           <p id="dyn-conoce-p2"></p>
         </div>
 
         <div id="workspace-card" class="workspace-card">
           <div class="workspace-topbar">
-            <button class="btn-back-conoce" onclick="resetToConoce()">Ver Conoce al HEPL</button>
+            <button class="btn-back-conoce" onclick="resetToConoce()">Volver al inicio del manual</button>
           </div>
 
           <!-- SEGURIDAD -->
@@ -853,23 +836,12 @@
       btn.disabled = true;
       btn.textContent = "Guardando...";
       try {
-        const res = await callAPI({
-          action: "confirm_announcement",
-          user: state.creds.user,
-          pass: state.creds.pass,
-          id
-        });
+        const res = await callAPI({ action: "confirm_announcement", user: state.creds.user, pass: state.creds.pass, id });
         if (res.ok) {
           state.announcements = res.announcements || [];
           renderStudentAnnouncements();
-        } else {
-          alert(res.error || "No se pudo confirmar.");
-          btn.disabled = false;
-        }
-      } catch (err) {
-        alert("Error de conexión.");
-        btn.disabled = false;
-      }
+        } else { alert(res.error || "No se pudo confirmar."); btn.disabled = false; }
+      } catch (err) { alert("Error de conexión."); btn.disabled = false; }
     }
 
     // ================= ANUNCIOS (ADMIN) =================
@@ -879,22 +851,15 @@
       const label = document.getElementById("ann-dest-val-label");
       const sel = document.getElementById("ann-dest-val");
 
-      if (tipo === "todos") {
-        wrap.style.display = "none";
-        return;
-      }
+      if (tipo === "todos") { wrap.style.display = "none"; return; }
       wrap.style.display = "block";
       if (tipo === "escuela") {
         label.textContent = "Selecciona la Escuela";
         const schools = [...new Set(state.students.map(s => s.escuela.trim()).filter(Boolean))].sort();
-        sel.innerHTML = schools.length
-          ? schools.map(sc => `<option value="${sc}">${sc}</option>`).join("")
-          : `<option value="">(No hay escuelas registradas)</option>`;
+        sel.innerHTML = schools.length ? schools.map(sc => `<option value="${sc}">${sc}</option>`).join("") : `<option value="">(No hay escuelas registradas)</option>`;
       } else {
         label.textContent = "Selecciona el Estudiante";
-        sel.innerHTML = state.students.length
-          ? state.students.map(s => `<option value="${s.usuario}">${s.nombre} (${s.usuario})</option>`).join("")
-          : `<option value="">(No hay estudiantes registrados)</option>`;
+        sel.innerHTML = state.students.length ? state.students.map(s => `<option value="${s.usuario}">${s.nombre} (${s.usuario})</option>`).join("") : `<option value="">(No hay estudiantes registrados)</option>`;
       }
     }
 
@@ -911,53 +876,36 @@
       if (!titulo || !mensaje) { alert("Escribe el título y el mensaje del anuncio."); return; }
       if (destinatario_tipo !== "todos" && !destinatario_valor) { alert("Selecciona el destinatario."); return; }
 
-      btn.disabled = true;
-      btn.textContent = "Publicando...";
-      alertBox.style.display = "none";
-
+      btn.disabled = true; btn.textContent = "Publicando..."; alertBox.style.display = "none";
       try {
         const res = await callAPI({
-          action: "create_announcement",
-          adminAuth: state.creds,
+          action: "create_announcement", adminAuth: state.creds,
           announcement: { titulo, mensaje, tipo, destinatario_tipo, destinatario_valor, enviarCorreo }
         });
         if (!res.ok) { alert(res.error || "Error al publicar."); return; }
-
         state.announcements = res.announcements || [];
         renderAdminAnnouncements();
         document.getElementById("ann-titulo").value = "";
         document.getElementById("ann-mensaje").value = "";
-
         alertBox.innerHTML = `<strong>¡Anuncio publicado!</strong> ${enviarCorreo ? (res.emailError ? "Error en correo: " + res.emailError : `Notificación enviada a ${res.notifiedCount} estudiante(s).`) : "Visible en el portal."}`;
         alertBox.style.display = "block";
-      } catch (err) {
-        alert("Error: " + err.message);
-      } finally {
-        btn.disabled = false;
-        btn.textContent = "Publicar Anuncio";
-      }
+      } catch (err) { alert("Error: " + err.message); }
+      finally { btn.disabled = false; btn.textContent = "Publicar Anuncio"; }
     }
 
     function renderAdminAnnouncements() {
       document.getElementById("ann-count").textContent = state.announcements.length;
       const box = document.getElementById("admin-ann-list");
-      if (!state.announcements.length) {
-        box.innerHTML = `<p style="font-size:0.86rem; color:var(--text-muted);">No hay anuncios publicados todavía.</p>`;
-        return;
-      }
+      if (!state.announcements.length) { box.innerHTML = `<p style="font-size:0.86rem; color:var(--text-muted);">No hay anuncios publicados todavía.</p>`; return; }
       box.innerHTML = state.announcements.map(a => {
-        const destLabel = a.destinatario_tipo === "todos"
-          ? "Todos"
-          : (a.destinatario_tipo === "escuela" ? `Escuela: ${a.destinatario_valor}` : `Estudiante: ${a.destinatario_valor}`);
+        const destLabel = a.destinatario_tipo === "todos" ? "Todos" : (a.destinatario_tipo === "escuela" ? `Escuela: ${a.destinatario_valor}` : `Estudiante: ${a.destinatario_valor}`);
         const confCount = (a.confirmaciones || []).length;
         return `
           <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:12px; padding:1rem; margin-bottom:0.75rem;">
             <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.75rem; flex-wrap:wrap; margin-bottom:0.4rem;">
               <div>
                 <strong style="color:var(--navy-deep); font-size:0.96rem;">${a.titulo}</strong>
-                <div style="font-size:0.76rem; color:var(--text-muted); margin-top:0.15rem;">
-                  ${a.fecha} · <strong>${destLabel}</strong> · ${a.tipo === "asistencia" ? "Asistencia" : "Lectura"}
-                </div>
+                <div style="font-size:0.76rem; color:var(--text-muted); margin-top:0.15rem;">${a.fecha} · <strong>${destLabel}</strong> · ${a.tipo === "asistencia" ? "Asistencia" : "Lectura"}</div>
               </div>
               <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
                 <button class="btn-sm btn-info" onclick="viewConfirmationsModal('${a.id}')">Confirmados (${confCount})</button>
@@ -977,12 +925,7 @@
       document.getElementById("modal-avatar-section").style.display = "none";
       const list = a.confirmaciones || [];
       document.getElementById("modal-profile-fields").innerHTML = list.length
-        ? list.map(c => `
-            <div class="profile-field">
-              <small>${c.fecha} · ${c.perfil || ""} · ${c.escuela || ""}</small>
-              <strong>${c.nombre} (${c.usuario})</strong>
-            </div>
-          `).join("")
+        ? list.map(c => `<div class="profile-field"><small>${c.fecha} · ${c.perfil || ""} · ${c.escuela || ""}</small><strong>${c.nombre} (${c.usuario})</strong></div>`).join("")
         : `<p style="font-size:0.9rem; color:var(--text-muted); text-align:center; padding:1rem 0;">Nadie ha confirmado este anuncio todavía.</p>`;
       document.getElementById("profile-modal").classList.add("open");
     }
@@ -991,10 +934,7 @@
       if (!confirm("¿Eliminar este anuncio?")) return;
       try {
         const res = await callAPI({ action: "delete_announcement", adminAuth: state.creds, id });
-        if (res.ok) {
-          state.announcements = res.announcements || [];
-          renderAdminAnnouncements();
-        }
+        if (res.ok) { state.announcements = res.announcements || []; renderAdminAnnouncements(); }
       } catch (err) { alert("Error: " + err.message); }
     }
 
@@ -1013,12 +953,9 @@
       document.getElementById("photo-status").textContent = "";
 
       const fields = [
-        { l: "Nombre completo", v: s.nombre },
-        { l: "Usuario", v: s.usuario },
-        { l: "Perfil", v: s.perfil },
-        { l: "Escuela / Universidad", v: s.escuela },
-        { l: "Correo electrónico", v: s.correo },
-        { l: "CURP", v: s.curp }
+        { l: "Nombre completo", v: s.nombre }, { l: "Usuario", v: s.usuario },
+        { l: "Perfil", v: s.perfil }, { l: "Escuela / Universidad", v: s.escuela },
+        { l: "Correo electrónico", v: s.correo }, { l: "CURP", v: s.curp }
       ];
       if (!canEditPhoto && s.password) fields.push({ l: "Contraseña asignada", v: s.password });
       document.getElementById("modal-profile-fields").innerHTML = fields.map(f => `<div class="profile-field"><small>${f.l}</small><strong>${f.v}</strong></div>`).join("");
@@ -1032,7 +969,6 @@
       if (!file) return;
       const status = document.getElementById("photo-status");
       status.textContent = "Procesando y guardando foto...";
-
       const reader = new FileReader();
       reader.onload = function(ev) {
         const img = new Image();
@@ -1044,7 +980,6 @@
           const minDim = Math.min(img.width, img.height);
           ctx.drawImage(img, (img.width - minDim) / 2, (img.height - minDim) / 2, minDim, minDim, 0, 0, size, size);
           const dataUrl = canvas.toDataURL("image/jpeg", 0.72);
-
           try {
             const res = await callAPI({ action: "update_photo", user: state.creds.user, pass: state.creds.pass, foto: dataUrl });
             if (res.ok) {
@@ -1080,64 +1015,40 @@
 
       if (!nombre || !correo || !escuela || !curp) { alert("Completa todos los campos del estudiante."); return; }
 
-      btn.disabled = true;
-      btn.textContent = "Registrando y enviando correo...";
-      alertBox.style.display = "none";
-
+      btn.disabled = true; btn.textContent = "Registrando y enviando correo..."; alertBox.style.display = "none";
       try {
         const res = await callAPI({ action: "register_student", adminAuth: state.creds, data: { nombre, correo, escuela, curp, perfil } });
         if (!res.ok) { alert(res.error || "No se pudo registrar."); return; }
         state.students = res.students || [];
         renderStudentsTable();
-
         const c = res.created;
-        alertBox.innerHTML = `
-          <strong>¡Estudiante registrado!</strong><br>
-          Usuario: <strong>${c.usuario}</strong> &nbsp;|&nbsp; Contraseña: <strong>${c.password}</strong><br>
-          <small>${res.emailSent ? "Correo enviado automáticamente a " + c.correo : "Registro guardado, error en correo: " + res.emailError}</small>
-        `;
+        alertBox.innerHTML = `<strong>¡Estudiante registrado!</strong><br>Usuario: <strong>${c.usuario}</strong> &nbsp;|&nbsp; Contraseña: <strong>${c.password}</strong><br><small>${res.emailSent ? "Correo enviado automáticamente a " + c.correo : "Registro guardado, error en correo: " + res.emailError}</small>`;
         alertBox.style.display = "block";
-        document.getElementById("reg-nombre").value = "";
-        document.getElementById("reg-correo").value = "";
-        document.getElementById("reg-escuela").value = "";
-        document.getElementById("reg-curp").value = "";
+        document.getElementById("reg-nombre").value = ""; document.getElementById("reg-correo").value = "";
+        document.getElementById("reg-escuela").value = ""; document.getElementById("reg-curp").value = "";
       } catch (err) { alert("Error: " + err.message); }
       finally { btn.disabled = false; btn.textContent = "Registrar y Enviar Accesos por Correo"; }
     }
 
     function renderStudentsTable() {
       const q = (document.getElementById("search-student").value || "").toLowerCase();
-      const filtered = state.students.filter(s =>
-        s.nombre.toLowerCase().includes(q) || s.usuario.toLowerCase().includes(q) ||
-        s.escuela.toLowerCase().includes(q) || s.curp.toLowerCase().includes(q)
-      );
+      const filtered = state.students.filter(s => s.nombre.toLowerCase().includes(q) || s.usuario.toLowerCase().includes(q) || s.escuela.toLowerCase().includes(q) || s.curp.toLowerCase().includes(q));
       document.getElementById("students-count").textContent = state.students.length;
       const tbody = document.getElementById("students-tbody");
-      if (!filtered.length) {
-        tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; color:var(--text-muted); padding:1.2rem;">No hay estudiantes registrados que coincidan.</td></tr>`;
-        return;
-      }
+      if (!filtered.length) { tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; color:var(--text-muted); padding:1.2rem;">No hay estudiantes registrados que coincidan.</td></tr>`; return; }
       tbody.innerHTML = filtered.map(s => `
         <tr>
-          <td>
-            <div style="display:flex; align-items:center; gap:0.6rem;">
-              <div class="avatar-sm" style="width:32px; height:32px; font-size:0.72rem;">${s.foto ? `<img src="${s.foto}" />` : getInitials(s.nombre)}</div>
-              <div><strong>${s.nombre}</strong><br><small style="color:var(--text-muted);">${s.correo}</small></div>
-            </div>
-          </td>
+          <td><div style="display:flex; align-items:center; gap:0.6rem;"><div class="avatar-sm" style="width:32px; height:32px; font-size:0.72rem;">${s.foto ? `<img src="${s.foto}" />` : getInitials(s.nombre)}</div><div><strong>${s.nombre}</strong><br><small style="color:var(--text-muted);">${s.correo}</small></div></div></td>
           <td><strong>${s.usuario}</strong></td>
           <td><span class="pill-tag">${s.perfil}</span></td>
           <td>${s.escuela}</td>
-          <td style="display:flex; gap:0.4rem; flex-wrap:wrap;">
-            <button class="btn-sm btn-info" onclick="viewStudentProfileAdmin('${s.usuario}')">Ver Perfil</button>
-            <button class="btn-sm btn-del" onclick="deleteStudent('${s.usuario}', '${s.nombre.replace(/'/g, "")}')">Dar de Baja</button>
-          </td>
+          <td style="display:flex; gap:0.4rem; flex-wrap:wrap;"><button class="btn-sm btn-info" onclick="viewStudentProfileAdmin('${s.usuario}')">Ver Perfil</button><button class="btn-sm btn-del" onclick="deleteStudent('${s.usuario}', '${s.nombre.replace(/'/g, "")}')">Dar de Baja</button></td>
         </tr>
       `).join("");
     }
 
     async function deleteStudent(usuario, nombre) {
-      if (!confirm(`¿Dar de baja a ${nombre} (${usuario})? Ya no podrá iniciar sesión en el manual.`)) return;
+      if (!confirm(`¿Dar de baja a ${nombre} (${usuario})? Ya no podrá iniciar sesión en el portal.`)) return;
       try {
         const res = await callAPI({ action: "delete_student", adminAuth: state.creds, usuario });
         if (res.ok) { state.students = res.students || []; renderStudentsTable(); }
@@ -1195,17 +1106,15 @@
           state.customModules = res.customModules || [];
           renderAdminCustomModules();
           applyDynamicContent();
-          document.getElementById("mod-btn-title").value = "";
-          document.getElementById("mod-sec-title").value = "";
-          document.getElementById("mod-content").value = "";
-          document.getElementById("mod-link-url").value = "";
+          document.getElementById("mod-btn-title").value = ""; document.getElementById("mod-sec-title").value = "";
+          document.getElementById("mod-content").value = ""; document.getElementById("mod-link-url").value = "";
           document.getElementById("mod-link-text").value = "";
         }
       } catch (err) { alert("Error: " + err.message); }
     }
 
     async function deleteCustomModule(id) {
-      if (!confirm("¿Eliminar este contenido de la sección Explorar?")) return;
+      if (!confirm("¿Eliminar este contenido del Manual de Integración?")) return;
       try {
         const res = await callAPI({ action: "delete_module", adminAuth: state.creds, id });
         if (res.ok) { state.customModules = res.customModules || []; renderAdminCustomModules(); applyDynamicContent(); }
@@ -1223,14 +1132,14 @@
       `).join("");
     }
 
-    // ================= RENDER DINÁMICO DEL MANUAL =================
+    // ================= RENDER DINÁMICO =================
     function applyDynamicContent() {
       const c = state.config;
       document.getElementById("dyn-welcome-title").textContent = c.welcome_title || "¡Bienvenido!";
-      document.getElementById("dyn-welcome-lead").textContent = c.welcome_lead || "";
-      document.getElementById("dyn-welcome-body").textContent = c.welcome_body || "";
-      document.getElementById("dyn-conoce-title").textContent = c.conoce_title || "Conoce al HEPL";
-      document.getElementById("dyn-conoce-p1").textContent = c.conoce_p1 || "";
+      document.getElementById("dyn-welcome-lead").textContent = c.welcome_lead || "Este portal es tu espacio institucional de consulta y comunicación.";
+      document.getElementById("dyn-welcome-body").textContent = c.welcome_body || "Aquí podrás consultar el Manual de Integración Clínica y mantenerte al tanto de todos los avisos, sesiones y comunicados oficiales del Departamento de Enseñanza e Investigación.";
+      document.getElementById("dyn-conoce-title").textContent = c.conoce_title || "ESTE MANUAL ES PARA TI";
+      document.getElementById("dyn-conoce-p1").textContent = c.conoce_p1 || "No es un documento más; es tu guía operativa para navegar por el hospital, proteger a tus pacientes y garantizar el éxito de tus campos clínicos. Léelo, compréndelo y aplícalo todos los días.";
       document.getElementById("dyn-conoce-p2").textContent = c.conoce_p2 || "";
 
       let hidden = [];
